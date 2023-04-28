@@ -10,4 +10,5 @@ app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get("DB_URL")
 
 db = SQLAlchemy(app)
 
-from taskmanager import routes # we have to import it here because routes relies on 'app' and 'db'
+# we have to import it here because routes relies on 'app' and 'db'
+from taskmanager import routes 
