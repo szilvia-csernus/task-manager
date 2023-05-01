@@ -1,26 +1,27 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h3 class="blue-grey-text text-darken-3 center-align">New Category</h3>
+<h3 class="blue-grey-text text-darken-3 center-align">Edit Category</h3>
 
 <!-- https://materializecss.com/text-inputs.html -->
 
 <div class="row card-panel grey lighten-5">
-    <form class="col s12" method="POST" action="{{ url_for('add_category')}}">
+    <form class="col s12" method="POST" action="{{ url_for('edit_category', category_id=category.id)}}">
         <!-- category_name  -->
         <div class="row">
             <div class="input-field col s12">
                 <i class="fas fa-folder-open prefix blue-grey-text text-darken-4"></i>
                 <input placeholder="Category" id="category_name" name="category_name" 
-                        minlength="3" maxlength="25" type="text" class="validate" required>
-                <label for="category_name">Name of New Category</label>
+                        minlength="3" maxlength="25" type="text" class="validate" 
+                        value="{{ category.category_name }}" required>
+                <label for="category_name">Name of Category</label>
             </div>
         </div>
         <!-- submit button -->
         <div class="row">
             <div class="col s12 center-align">
                 <button type="submit" class="btn-large orange darken-2">
-                    Add Category <i class="fas fa-plus-square right"></i>
+                    Edit Category <i class="fas fa-edit right"></i>
                 </button>
             </div>
         </div>
