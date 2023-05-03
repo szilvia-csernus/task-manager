@@ -8,11 +8,14 @@ document.addEventListener('DOMContentLoaded', function () {
     // datepicker initialization
     let datepicker = document.querySelectorAll('.datepicker');
 	M.Datepicker.init(datepicker, {
-        format: "dd mmmm, yyyy",
-        i18n: {done: "Select"}
-    });
+		format: 'yyyy-mm-dd'
+	});
 
     // select initialization
     let selects = document.querySelectorAll('select');
 	M.FormSelect.init(selects);
+
+    // collapsible initialization
+    let collapsible = document.querySelectorAll('.collapsible');
+	M.Collapsible.init(collapsible);
 });
