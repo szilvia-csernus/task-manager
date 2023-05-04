@@ -17,6 +17,11 @@ strong {
     font-weight: 700;
 }
 
+nav {
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
 
 /* changing the 'Edit' and 'Delete' button's default styles  */
 
