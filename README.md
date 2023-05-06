@@ -1,22 +1,29 @@
+
+This basic Flask project was created by following [Tim Nelson](https://github.com/TravelTimN)'s walktrough tutorial by [Code Institute](www.codeinstitute.net).
+
+## Languages, Frameworks, Libraries and Technologies used
+
+* python
+* HTML
+* CSS
+* JavaScript
+* Flask-SQLAlchemy
+* postgresql
+* psycop2
+* [Materialize](https://materializecss.com/grid.html)
+* Heroku - for backend project hosting
+* ElephantSQL - for database hosting
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+This project is incorporating Code Institute's template for Codeanywhere. 
+The template's last update was: **March 3rd, 2023**
 
 ## Codeanywhere Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
 
 To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
@@ -36,4 +43,10 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ---
 
-Happy coding!
+
+## Credits 
+
+Tim Nelson from Code Institute - for the walkthrough tutorial
+
+
+
